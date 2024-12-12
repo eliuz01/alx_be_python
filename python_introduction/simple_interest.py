@@ -1,7 +1,7 @@
-Principa = 1000 # (representing $1000),
-R = 0.05 # (representing 5% annual interest rate),
-T = 3 #(representing 3 years).
+Principal = 1000 # (representing $1000),
+Rate = 0.05 # (representing 5% annual interest rate),
+Time = 3 #(representing 3 years).
 
-I = P * R * T
+I = Principal * Rate * Time
 
-print(f"the simple interest is: {I}")
+print(f"The simple interest is: {I}")
