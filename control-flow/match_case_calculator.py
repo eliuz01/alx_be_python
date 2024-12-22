@@ -1,6 +1,6 @@
-num1 = input("enter first number: ")
+num1 = input("Enter the first number: ")
 
-num2 = input("enter second number: ")
+num2 = input("Enter the second number: ")
 
 case_operation  = input("choose the operation (/,*,+,-: ): ")
 
