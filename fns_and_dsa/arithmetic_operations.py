@@ -1,14 +1,12 @@
-def perform_operation():
-    num1 = float(input("Enter the first number: "))
-    num2 = float(input("Enter the second number: "))
-    perform_operation  = input("Enter the operation (add, subtract, multiply, divide): ")
-    if perform_operation == "add":
+def perform_operation(num1, num2, operation):
+    
+    if operation == "add":
         result = num1 + num2
-    elif perform_operation == "subtract":
+    elif operation == "subtract":
         result = num1 - num2
-    elif perform_operation == "multiply":
+    elif operation == "multiply":
         result = num1 * num2
-    elif perform_operation == "divide":
+    elif operation == "divide":
         if num2 != 0:
             result = num1/num2
         else:
@@ -17,4 +15,9 @@ def perform_operation():
         print("Invalid operation selected. Please choose from (add, subtract, multiply, divide).")
     return result
 
-print(perform_operation())
+
+num1 = 10
+num2 = 5
+operation = "add"
+result = perform_operation(num1, num2, operation)
+print("The result is:", result)
