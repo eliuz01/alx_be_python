@@ -16,8 +16,6 @@ def perform_operation(num1, num2, operation):
     return result
 
 
-num1 = 10
-num2 = 5
-operation = "add"
-result = perform_operation(num1, num2, operation)
+
+result = perform_operation(5, 10, "add")
 print("The result is:", result)
